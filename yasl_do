@@ -1,0 +1,21 @@
+#!/yasl
+// % operator not quite working
+
+4
+!=
+? exit
+!
+
+eval:1
+=:2
+!
+eval:3
+
+1:=:0
+3:=:0
+2:=:0
+eval
+
+print
+"\n"
+print
